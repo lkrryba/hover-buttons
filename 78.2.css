@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: pink;
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button {
+	position: absolute;
+	height: 50px;
+	width: 100px;
+	font: 20px lobster;
+	color: darkorchid;
+	border: 3px solid darkorchid;
+	border-radius: 5%;
+}
+
+.button1 {
+	top: -70px;
+	left: -40px;
+}
+
+.button2 {
+	top: -10px;
+	left: -40px;
+}
+
+.button3 {
+	top: 50px;
+	left: -40px;
+}
+
+.button:hover {
+	position: aboslute;
+	height: 52px;
+	width: 102px;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px magenta;
+	color: white;
+	background: darkorchid;
+}
